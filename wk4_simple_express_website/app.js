@@ -1,3 +1,4 @@
+// add modules to the app
 var express = require('express');
 var path = require('path');  // Path is a root module which is why we didn't add it to the dependencies
 var bodyParser = require('body-parser');
@@ -6,9 +7,9 @@ var nodemailer = require('nodemailer');
 // we can initiallize the app here
 var app = express();
 
-// setup jade views
+// setup jade views. This tells jade which folder the template files will be in
 app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'jade');
+app.set('view engine', 'jade'); // set the view engine to jade
 
 // set the body parser middle ware
 app.use(bodyParser.json());// parse json
