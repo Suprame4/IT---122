@@ -1,0 +1,70 @@
+body {
+    background-color: #001240;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    height: 150px;
+    color: #fff;
+}
+
+.usrPic {
+    height: 100%;
+    width: auto;
+}
+
+.usrDetails {
+    background-color: #00A7DB;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0px,15px;
+    flex-grow: 2;
+}
+
+.usrDetails h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.usrDetails span {
+    margin: 0;
+    display: inline-block;
+}
+
+.home {
+    background-color:#00C1EA;
+}
+
+.home, 
+.projects, 
+.contact {
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.home ion-icon,
+.projects ion-icon,
+.contact ion-icon {
+    font-size: 100px;
+}
+
+.projects {
+    background-color: #94D401 ;
+}
+
+.contact {
+    background-color: #61B100;
+}
