@@ -32,12 +32,11 @@ app.get('/contact', function(req, res){
 });
 
 app.post('/contact/send', function(req, res){
-   //console.log('test')
    var transporter = nodemailer.createTransport({
        service: 'Gmail',
        auth: {
            user: 'lisanetscc@gmail.com',
-           pass: ''
+           pass: 'F433d0m!z0fr33'
        }
    });
    var mailOptions = {
